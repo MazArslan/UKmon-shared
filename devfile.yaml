@@ -10,7 +10,7 @@ components:
       cpuRequest: 200m
       volumeMounts:
         - name: conda
-          path: /home/user/miniconda
+          path: /home/user/miniconda/envs
   - name: conda
     volume:
       size: 1G
