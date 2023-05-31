@@ -9,8 +9,8 @@ components:
       memoryRequest: 512Mi
       cpuRequest: 200m
     volumeMounts:
-        - name: conda
-          path: /home/user/miniconda
+      - name: conda
+        path: /home/user/miniconda
   - name: conda
     volume:
       size: 1G
