@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tools
     container:
-      image: quay.io/marslan/conda:latest
+      image: continuumio/miniconda3:latest
       memoryLimit: 1Gi
       memoryRequest: 512Mi
       cpuRequest: 200m
