@@ -4,13 +4,9 @@ metadata:
 components:
   - name: tools
     container:
-      image: quay.io/marslan/conda:latest
+      image: registry.redhat.io/devspaces/udi-rhel8:latest
       memoryLimit: 1Gi
       memoryRequest: 512Mi
       cpuRequest: 200m
-      volumeMounts:
-        - name: conda
-          path: /home/user/miniconda/envs
-  - name: conda
-    volume:
-      size: 1G
+
+      
